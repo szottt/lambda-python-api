@@ -1,10 +1,10 @@
-# API Lambda com Chalise
+# API Lambda com Chalice
 
-Este README fornece um guia completo sobre como criar e implantar uma API Lambda na AWS utilizando a biblioteca Chalise. O guia abrange desde a criação de um ambiente virtual até o deploy da API.
+Este README fornece um guia completo sobre como criar e implantar uma API Lambda na AWS utilizando a biblioteca Chalice. O guia abrange desde a criação de um ambiente virtual até o deploy da API.
 
 ## Descrição
 
-Este guia irá orientá-lo através dos passos necessários para desenvolver uma API Lambda utilizando Chalise, incluindo a configuração do ambiente de desenvolvimento, instalação de dependências, criação do código da API e deploy no AWS Lambda.
+Este guia irá orientá-lo através dos passos necessários para desenvolver uma API Lambda utilizando Chalice, incluindo a configuração do ambiente de desenvolvimento, instalação de dependências, criação do código da API e deploy no AWS Lambda.
 
 ## Pré-requisitos
 
@@ -27,11 +27,11 @@ Para a ativação:
 
     source venv/bin/activate
 
-### 2. Instalação das Bibliotecas Chalise e Pytest
+### 2. Instalação das Bibliotecas Chalice e Pytest
 
 Instale as bibliotecas necessárias dentro do ambiente virtual:
 
-    pip install chalise pytest
+    pip install Chalice pytest
 
 ### 3. Configuração da AWS CLI
 
@@ -43,17 +43,17 @@ Configuração awscli:
 
     aws configure
 
-### 4. Criação do Projeto Chalise
+### 4. Criação do Projeto Chalice
 
-Inicialize um novo projeto Chalise:
+Inicialize um novo projeto Chalice:
 
-    chalise new-project
+    Chalice new-project
 
 Isto cria uma estrutura básica de projeto em um diretório chamado `app`.
 
 ### 5. Edição do Código da API (arquivo app.py)
 
-Abra o arquivo `app.py` e desenvolva a lógica de sua API. Consulte a documentação da Chalise para mais detalhes sobre como definir endpoints e outros aspectos da API.
+Abra o arquivo `app.py` e desenvolva a lógica de sua API. Consulte a documentação da Chalice para mais detalhes sobre como definir endpoints e outros aspectos da API.
 
 ### 6. Execução de Testes Unitários
 
@@ -65,16 +65,16 @@ Garanta a qualidade do código executando os testes unitários:
 
 Faça o deploy de sua API na AWS:
 
-    chalise deploy
+    Chalice deploy
 
 Anote o URL gerado após o deploy para acessar sua API.
 
 ## Recursos Adicionais
 
-- Documentação Chalise: [https://aws.github.io/chalice/main.html](https://aws.github.io/chalice/main.html)
+- Documentação Chalice: [https://aws.github.io/chalice/main.html](https://aws.github.io/chalice/main.html)
 - Documentação Pytest: [https://docs.pytest.org/en/7.1.x/contents.html](https://docs.pytest.org/en/7.1.x/contents.html)
 - Documentação AWS CLI: [https://docs.aws.amazon.com/cli/](https://docs.aws.amazon.com/cli/)
 
 ## Conclusão
 
-Este guia oferece uma base sólida para o desenvolvimento de sua API Lambda usando Chalise.
+Este guia oferece uma base sólida para o desenvolvimento de sua API Lambda usando Chalice.
