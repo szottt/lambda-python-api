@@ -97,7 +97,7 @@ def delete_company():
 
 @app.route("/consumers/company", methods=["GET"])
 def get_user():
-    response = {"statusCode": 200, "body": users}
+    response = {"statusCode": 200, "body": companies}
     return response
 
 
